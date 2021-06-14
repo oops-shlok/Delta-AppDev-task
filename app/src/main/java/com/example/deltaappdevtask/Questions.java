@@ -34,7 +34,6 @@ public class Questions extends AppCompatActivity {
     public static int points;
     public View view;
     public Vibrator vibe;
-    LinearLayout bg=(LinearLayout) findViewById(R.id.backgroundColor);
 
 
 
@@ -153,7 +152,6 @@ public class Questions extends AppCompatActivity {
                     public void onClick(View v) {
                         points=points+1;
                         updateScore.setText(String.valueOf(points));
-                        bg.setBackgroundColor(Color.rgb(0,255,0));
 
                         dateGenerator.setText(generateDate());
                         generateOption();
@@ -162,8 +160,7 @@ public class Questions extends AppCompatActivity {
                 });
                 option2.setOnClickListener(new View.OnClickListener() {
                     @Override
-                    public void onClick(View v) {
-                        bg.setBackgroundColor(Color.rgb(255,0,0));
+                    public void onClick(View v) {                        
                         updateScore.setText(String.valueOf(points));
                         finish();
                     }
@@ -171,7 +168,6 @@ public class Questions extends AppCompatActivity {
                 option3.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        bg.setBackgroundColor(Color.rgb(255,0,0));
                         updateScore.setText(String.valueOf(points));
                         finish();
                     }
@@ -179,7 +175,6 @@ public class Questions extends AppCompatActivity {
                 option4.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        bg.setBackgroundColor(Color.rgb(255,0,0));
                         updateScore.setText(String.valueOf(points));
                         finish();
                     }
@@ -191,7 +186,6 @@ public class Questions extends AppCompatActivity {
                 option1.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        bg.setBackgroundColor(Color.rgb(255,0,0));
                         updateScore.setText(String.valueOf(points));
                         finish();
                     }
@@ -201,7 +195,6 @@ public class Questions extends AppCompatActivity {
                     public void onClick(View v) {
                         points=points+1;
                         updateScore.setText(String.valueOf(points));
-                        bg.setBackgroundColor(Color.rgb(0,255,0));
 
                         dateGenerator.setText(generateDate());
                         generateOption();
@@ -211,7 +204,6 @@ public class Questions extends AppCompatActivity {
                 option3.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        bg.setBackgroundColor(Color.rgb(255,0,0));
                         updateScore.setText(String.valueOf(points));
                         finish();
                     }
@@ -219,7 +211,6 @@ public class Questions extends AppCompatActivity {
                 option4.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        bg.setBackgroundColor(Color.rgb(255,0,0));
                         updateScore.setText(String.valueOf(points));
                         finish();
                     }
@@ -230,7 +221,6 @@ public class Questions extends AppCompatActivity {
                 option1.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        bg.setBackgroundColor(Color.rgb(255,0,0));
                         updateScore.setText(String.valueOf(points));
                         finish();
                     }
@@ -238,7 +228,6 @@ public class Questions extends AppCompatActivity {
                 option2.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        bg.setBackgroundColor(Color.rgb(255,0,0));
                         updateScore.setText(String.valueOf(points));
                         finish();
                     }
@@ -248,7 +237,6 @@ public class Questions extends AppCompatActivity {
                     public void onClick(View v) {
                         points=points+1;
                         updateScore.setText(String.valueOf(points));
-                        bg.setBackgroundColor(Color.rgb(0,255,0));
 
                         dateGenerator.setText(generateDate());
                         generateOption();
@@ -258,7 +246,6 @@ public class Questions extends AppCompatActivity {
                 option4.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        bg.setBackgroundColor(Color.rgb(255,0,0));
                         updateScore.setText(String.valueOf(points));
                         finish();
                     }
@@ -270,7 +257,6 @@ public class Questions extends AppCompatActivity {
                 option1.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        bg.setBackgroundColor(Color.rgb(255,0,0));
                         updateScore.setText(String.valueOf(points));
                         finish();
                     }
@@ -278,7 +264,6 @@ public class Questions extends AppCompatActivity {
                 option2.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        bg.setBackgroundColor(Color.rgb(255,0,0));
                         updateScore.setText(String.valueOf(points));
                         finish();
                     }
@@ -286,7 +271,6 @@ public class Questions extends AppCompatActivity {
                 option3.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        bg.setBackgroundColor(Color.rgb(255,0,0));
                         updateScore.setText(String.valueOf(points));
                         finish();
                     }
@@ -296,7 +280,6 @@ public class Questions extends AppCompatActivity {
                     public void onClick(View v) {
                         points=points+1;
                         updateScore.setText(String.valueOf(points));
-                        bg.setBackgroundColor(Color.rgb(0,255,0));
 
                         dateGenerator.setText(generateDate());
                         generateOption();
