@@ -141,6 +141,10 @@ public class Questions extends AppCompatActivity {
             break;
 
         }
+        option1.setBackgroundColor(Color.BLUE);
+        option2.setBackgroundColor(Color.BLUE);
+        option3.setBackgroundColor(Color.BLUE);
+        option4.setBackgroundColor(Color.BLUE);
     }
 
     public void solution(){
@@ -150,6 +154,7 @@ public class Questions extends AppCompatActivity {
 
                     @Override
                     public void onClick(View v) {
+                        option1.setBackgroundColor(Color.GREEN);
                         points=points+1;
                         updateScore.setText(String.valueOf(points));
 
@@ -160,7 +165,8 @@ public class Questions extends AppCompatActivity {
                 });
                 option2.setOnClickListener(new View.OnClickListener() {
                     @Override
-                    public void onClick(View v) {                        
+                    public void onClick(View v) {   
+                        option2.setBackgroundColor(Color.RED);
                         updateScore.setText(String.valueOf(points));
                         finish();
                     }
@@ -168,6 +174,7 @@ public class Questions extends AppCompatActivity {
                 option3.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        option3.setBackgroundColor(Color.RED);
                         updateScore.setText(String.valueOf(points));
                         finish();
                     }
@@ -175,6 +182,7 @@ public class Questions extends AppCompatActivity {
                 option4.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        option4.setBackgroundColor(Color.RED);
                         updateScore.setText(String.valueOf(points));
                         finish();
                     }
@@ -186,6 +194,7 @@ public class Questions extends AppCompatActivity {
                 option1.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        option1.setBackgroundColor(Color.RED);
                         updateScore.setText(String.valueOf(points));
                         finish();
                     }
@@ -193,6 +202,7 @@ public class Questions extends AppCompatActivity {
                 option2.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        option2.setBackgroundColor(Color.GREEN);
                         points=points+1;
                         updateScore.setText(String.valueOf(points));
 
@@ -204,6 +214,7 @@ public class Questions extends AppCompatActivity {
                 option3.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        option3.setBackgroundColor(Color.RED);
                         updateScore.setText(String.valueOf(points));
                         finish();
                     }
@@ -211,6 +222,7 @@ public class Questions extends AppCompatActivity {
                 option4.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        option4.setBackgroundColor(Color.RED);
                         updateScore.setText(String.valueOf(points));
                         finish();
                     }
@@ -221,6 +233,7 @@ public class Questions extends AppCompatActivity {
                 option1.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        option1.setBackgroundColor(Color.RED);
                         updateScore.setText(String.valueOf(points));
                         finish();
                     }
@@ -228,6 +241,7 @@ public class Questions extends AppCompatActivity {
                 option2.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        option2.setBackgroundColor(Color.RED);
                         updateScore.setText(String.valueOf(points));
                         finish();
                     }
@@ -235,6 +249,7 @@ public class Questions extends AppCompatActivity {
                 option3.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        option3.setBackgroundColor(Color.GREEN);
                         points=points+1;
                         updateScore.setText(String.valueOf(points));
 
@@ -246,6 +261,7 @@ public class Questions extends AppCompatActivity {
                 option4.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        option4.setBackgroundColor(Color.RED);
                         updateScore.setText(String.valueOf(points));
                         finish();
                     }
@@ -257,6 +273,7 @@ public class Questions extends AppCompatActivity {
                 option1.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        option1.setBackgroundColor(Color.RED);
                         updateScore.setText(String.valueOf(points));
                         finish();
                     }
@@ -264,6 +281,7 @@ public class Questions extends AppCompatActivity {
                 option2.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        option2.setBackgroundColor(Color.RED);
                         updateScore.setText(String.valueOf(points));
                         finish();
                     }
@@ -271,6 +289,7 @@ public class Questions extends AppCompatActivity {
                 option3.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        option3.setBackgroundColor(Color.RED);
                         updateScore.setText(String.valueOf(points));
                         finish();
                     }
@@ -278,6 +297,7 @@ public class Questions extends AppCompatActivity {
                 option4.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        option4.setBackgroundColor(Color.GREEN);
                         points=points+1;
                         updateScore.setText(String.valueOf(points));
 
